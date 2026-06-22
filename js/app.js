@@ -158,7 +158,7 @@ function confirmarPedido() {
     .map(([nombre, qty]) => `• ${qty}x ${nombre}`)
     .join('\n');
   const msg = encodeURIComponent(
-    `Hola FUGAZZA 🍕, quiero hacer un pedido:\n\n${lineas}\n\n¿Me podés confirmar disponibilidad? ¡Gracias!`
+    `Hola FUGAZZA 🍕, quiero hacer un pedido:\n\n${lineas}\n\n¿Me podés confirmar el precio total? ¡Gracias!`
   );
   window.open(`https://wa.me/${WA}?text=${msg}`, '_blank');
 }
