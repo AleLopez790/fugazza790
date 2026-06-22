@@ -24,7 +24,7 @@ const WA = "543874854544"; // Código de país + código de área + número sin 
    ══════════════════════════════════════ */
 const PROMO_CONFIG = {
   activo:  true,
-  mensaje: "🍕Tu cabala es FUGAZZA!! llevandote dos Pizzas o dos Sandwich TE LLEVAS UNA GASEOSA DE REGALO!! ",
+  mensaje: "🍕Tu cabala es FUGAZZA!! consulta por nuestras promociones mundialistas ",
   icono:   "🔥",
   color:   "naranja"
 };
